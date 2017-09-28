@@ -4,7 +4,8 @@
 ###########################
 
 # Set up the directory
-setwd("/Users/Thomas/Dropbox/Data Science/Kaggle/competition-house prices-advanced regression")
+#setwd("/Users/Thomas/Dropbox/Data Science/Kaggle/competition-house prices-advanced regression")
+setwd("data")
 
 # Load up the required packages
 library(dplyr)
@@ -12,7 +13,7 @@ library(ggplot2)
 library(reshape2)
 
 # Import the data
-train <- read.csv('data/train.csv')
+train <- read.csv('train.csv')
 
 
 #----------------------------------------#
